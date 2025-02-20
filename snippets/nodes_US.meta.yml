@@ -1,1 +1,216 @@
-proxies: []
+proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 0|🇺🇸1 |  6.0MB/s
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+  port: 21159
+  server: 581023.horace.im
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 0|🇺🇸2 |  6.2MB/s
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+  port: 21152
+  server: 510613.frederica.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇺🇸3 |  6.1MB/s
+  network: tcp
+  port: 31112
+  server: 581023.horace.im
+  type: vmess
+  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 0|🇺🇸4 |  6.1MB/s
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+  port: 21113
+  server: 581023.horace.im
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇺🇸5 |  3.3MB/s
+  network: tcp
+  port: 31348
+  server: 510613.frederica.xyz
+  type: vmess
+  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇺🇸6 |  1.2MB/s
+  network: tcp
+  port: 31347
+  server: 581023.horace.im
+  type: vmess
+  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 0|🇺🇸7 |  3.3MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 26977
+  server: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 0|🇺🇸8 |  3.0MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 23543
+  server: gb1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇺🇸9 |  6.0MB/s
+  network: tcp
+  port: 31150
+  server: 510613.frederica.xyz
+  type: vmess
+  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 3693f736-6191-45a6-89ac-e48bd48152ea
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 3693f736-6191-45a6-89ac-e48bd48152ea
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 3693f736-6191-45a6-89ac-e48bd48152ea
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 10|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+  password: iMqY3uG_5pgEj3hCfyHB-0vB
+  port: 443
+  server: 143.198.235.49
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 11,12|美国|@ripaojiedian
+  network: tcp
+  password: 65f14831-5c67-483f-9e85-f3aa73f21187
+  port: 13019
+  server: naiu-us.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国4|@ripaojiedian
+  password: LKG8G8VL60RSB59P
+  port: 17003
+  server: 23.185.248.13
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国3|@ripaojiedian
+  port: 31909
+  server: 23.224.152.62
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- alterId: 0
+  cipher: auto
+  name: 12|美国3|@ripaojiedian
+  network: tcp
+  port: '31909'
+  server: 23.224.152.62
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- name: 13|US_speednode_0114
+  network: ws
+  port: 80
+  server: 66.235.200.5
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 13|US_speednode_0118
+  port: 7733
+  reality-opts:
+    public-key: bdVahzcZN694ebmTLvPE0nymHucaFWw6_h6cV5hvTlI
+    short-id: 335bfdfb
+  server: ort.gecs.top
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
+- name: 13|US_speednode_0119
+  network: ws
+  port: 80
+  server: 66.235.200.191
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 13|US_speednode_0120
+  port: 443
+  server: 129.153.90.9
+  servername: dj-download-us.xn--4gq62f52gopi49k.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d09ca4de-431d-4e43-bdfb-ce3d0586d7ba
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: a5694dfb-0a5e-4cc8-bebf-3ae8f0e82451
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: a5694dfb-0a5e-4cc8-bebf-3ae8f0e82451
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: a5694dfb-0a5e-4cc8-bebf-3ae8f0e82451
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
