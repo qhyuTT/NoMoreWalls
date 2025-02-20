@@ -1261,6 +1261,7 @@ def main():
             with open("snippets/"+name+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'payload': payload}, f, allow_unicode=True)
 
+
     print("正在写出统计信息...")
     out = "序号,链接,节点数\n"
     for i, source in enumerate(sources_obj):
