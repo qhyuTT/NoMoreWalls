@@ -1,59 +1,45 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 3693f736-6191-45a6-89ac-e48bd48152ea
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 3693f736-6191-45a6-89ac-e48bd48152ea
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 3693f736-6191-45a6-89ac-e48bd48152ea
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 11,12|台湾|@ripaojiedian
-  network: tcp
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 13035
-  server: naiu-other.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇹🇼 台湾2|@ripaojiedian
-  password: c1JpS2F6dHRDQWl3UTl0VVRoZU5YOFRraGlDellJV3M=
-  port: 37310
-  server: tengx.wwwq.net
+  password: QF377GGQ00RATCMK
+  port: 21004
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾3|@ripaojiedian
+  password: Y2U58S90E3GST1AQ
+  port: 21001
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾4|@ripaojiedian
+  password: HQJQFA7U2Z5HGZWH
+  port: 21003
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 01 | 1x TW
-  password: a5694dfb-0a5e-4cc8-bebf-3ae8f0e82451
+  password: 4c465d25-42f2-49c7-b13a-493344bb9c2c
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 02 | 1x TW
-  password: a5694dfb-0a5e-4cc8-bebf-3ae8f0e82451
+  password: 4c465d25-42f2-49c7-b13a-493344bb9c2c
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 03 | 1x TW
-  password: a5694dfb-0a5e-4cc8-bebf-3ae8f0e82451
+  password: 4c465d25-42f2-49c7-b13a-493344bb9c2c
   port: 31245
   server: free.2apzhfa.xyz
   type: ss

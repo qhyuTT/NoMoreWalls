@@ -1,137 +1,72 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0|🇺🇸1 |  6.0MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21159
-  server: 581023.horace.im
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0|🇺🇸2 |  6.2MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21152
-  server: 510613.frederica.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇺🇸3 |  6.1MB/s
-  network: tcp
-  port: 31112
-  server: 581023.horace.im
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0|🇺🇸4 |  6.1MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21113
-  server: 581023.horace.im
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇺🇸5 |  3.3MB/s
-  network: tcp
-  port: 31348
-  server: 510613.frederica.xyz
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇺🇸6 |  1.2MB/s
-  network: tcp
-  port: 31347
-  server: 581023.horace.im
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇺🇸9 |  6.0MB/s
-  network: tcp
-  port: 31150
-  server: 510613.frederica.xyz
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 3693f736-6191-45a6-89ac-e48bd48152ea
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 3693f736-6191-45a6-89ac-e48bd48152ea
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 3693f736-6191-45a6-89ac-e48bd48152ea
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
-  network: tcp
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 13019
-  server: naiu-us.05vr9nyqg5.download
+- name: 1|🇺🇸2 |  2.3MB/s
+  password: bf0058ec-eed0-3c70-a4ef-9ac8df58e1d1
+  port: 16895
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  sni: x40.flybar.work
   type: trojan
+  udp: true
+- name: 1|🇺🇸4 |  1.6MB/s
+  password: bf0058ec-eed0-3c70-a4ef-9ac8df58e1d1
+  port: 20302
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z302.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇺🇸8 |  5.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.213.120.25
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇺🇸13 |  4.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.212.0.149
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸15 |  6.0MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bf89e924-e9fa-3479-891e-6108d59ba112
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
-  password: LKG8G8VL60RSB59P
-  port: 17003
-  server: 23.185.248.13
+  name: 11|🇺🇸 美国|@ripaojiedian
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 23.154.136.148
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国3|@ripaojiedian
-  port: 31909
-  server: 23.224.152.62
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
-- alterId: 0
-  cipher: auto
-  name: 12|美国3|@ripaojiedian
-  network: tcp
-  port: '31909'
-  server: 23.224.152.62
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: a5694dfb-0a5e-4cc8-bebf-3ae8f0e82451
+  password: 4c465d25-42f2-49c7-b13a-493344bb9c2c
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: a5694dfb-0a5e-4cc8-bebf-3ae8f0e82451
+  password: 4c465d25-42f2-49c7-b13a-493344bb9c2c
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国 03 | 1x US Washington
-  password: a5694dfb-0a5e-4cc8-bebf-3ae8f0e82451
+  password: 4c465d25-42f2-49c7-b13a-493344bb9c2c
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
